@@ -1,0 +1,70 @@
+   body{  font-family:'Roboto', sans-serif; }
+   
+    /* Header columns */
+   .left{
+      background:#00b0ff;
+      padding-top: 3em;
+      padding-left: 3em;
+      padding-bottom: 2em;
+      color:#fff;
+   }
+
+   .right{
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-bottom: 2em;
+    color:#fff;
+   }
+   /* Each covering letter can have its own CSS class dictating the background coloor for its heading block */
+   .REP060 {background:#0081cb;}
+   .REP060 {background:#0081cb;}
+   .REP082 {background:#f44336;}
+   .REP095 {background:#ff4081;}
+   .REP089 {background:#cddc39;}
+   .REP086 {background:#d4e157;}
+   .REP090 {background:#fb8c00;}
+   .REP086REP088REP087 {background:#76ff03;}
+
+
+   h4.primary {color: #00b0ff;}
+
+   .row.content {  margin-top: 2em; }
+   .content h2 { margin-bottom: 1em; }
+
+   .response_left { text-align:justify;padding-right:1em;font-style:italic;font-family:serif;}
+   .centred {text-align:center;}
+   .response_right { padding-left:1em;}
+
+
+
+
+   h2 .icon  {padding-right:30px;}
+   p .icon{
+       padding-right: 1em;
+       margin-left: 1em;
+   }
+   .icon{ color:#00b0ff; }
+   .icon-white{
+       padding-right:5px;
+       color:#fff;
+   }
+   .icon-3x {
+      font-size:3em;
+   }
+   li { list-style: none;}
+   .response_left li , .highlight li { text-align: right;}
+/*
+   ul li::after {
+     content: "\2022";  /\* Add content: \2022 is the CSS Code/unicode for a bullet *\/
+     color: #00b0ff; /\* Change the color *\/
+     font-weight: normal; /\* If you want it to be bold *\/
+     display: inline-block; /\* Needed to add space between the bullet and the text *\/
+     width: 1em; /\* Also needed for space (tweak if needed) *\/
+     /\*margin-left: -1em;*\/ /\* Also needed for space (tweak if needed) *\/
+   }*/
+
+   /* Temp ** REMOVE ** */
+   span.id {  color: #ccc;}
+   
+   /* Printing */
+   section.page{ page-break-after:always; }

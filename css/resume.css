@@ -1,0 +1,128 @@
+
+/* Printing */
+.page{
+   page-break-after:always;
+}
+
+.experience,
+.achievement {
+    page-break-inside: avoid;
+}
+
+body{
+   font-family:'Roboto', sans-serif;
+}
+
+
+
+img#splash {
+    float: left;
+    position: absolute;
+    right: 80;
+    top: 10px;
+    z-index: 1000;
+}
+img#splash2{
+   float:left;
+   position:absolute;
+   left:361px;
+   top:120px;
+   z-index:1000;
+}
+.left{
+   background:#00b0ff;
+   padding-top:6em;
+  color:#fff;/*#96deff;*/
+}
+
+.right{
+   padding-top:6em;
+   padding-right:6em;
+   padding-left:4em;
+}
+
+.jumbotron{
+   background:#0081cb;
+   margin-bottom:0 !important;
+   color:#fff;
+   padding:4em;
+   height:300px;
+
+}
+
+.recentachievements
+, .experiences
+, .achievements
+, .educational
+ {
+    margin-bottom: 2em;
+}
+
+.recentachievements h2
+, .experiences h2
+, .achievements h2
+, .educational h2
+ {
+    margin-bottom: 1em;
+
+}
+
+.about{
+   font-weight:bold;
+}
+
+.experience{
+   margin-bottom:1em;
+
+   /*font-size:0.75em;*/
+}
+.position,
+.title,
+.degree{
+   font-weight:bold;
+   font-size:1.2em;
+}
+.timeperiod{
+   font-size:0.75em;
+}
+.description{
+   text-align:justify;
+}
+
+.icon{
+   padding-right:30px;
+   color:#00b0ff;
+}
+.icon-white{
+   padding-right:5px;
+   color:#fff;
+}
+
+span.skill{
+   border:solid 1px;
+   padding:5;
+   display:inline-block;
+   margin:5px;
+}
+.left{
+   height:100evh;
+}
+.left > div{
+   margin-bottom:50px;
+
+}
+
+.educational{
+   margin-top:4em;
+   margin-bottom:6em;
+}
+.achievement{
+   margin-bottom:1em;
+}
+
+.recentachievements p,
+.recentachievements ul,
+.recentachievements div {
+    color: #00b0ff;
+}
+

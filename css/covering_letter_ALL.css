@@ -1,0 +1,167 @@
+body{
+                  font-family:'Roboto', sans-serif;
+                  }
+                  
+                  section.page{
+                  page-break-after:always;
+                  }
+
+                  .contentarea {
+                     margin-top: 3em;
+                     padding-left: 2em;
+                     padding-right: 2em;
+                  }
+
+                  .left{
+                     background:#00b0ff;
+                     padding-top: 3em;
+                     padding-left: 3em;
+                     padding-bottom: 2em;
+                     color:#fff;
+                  }
+
+                  /* Each covering letter can have its own CSS class dictating the background coloor for its heading block */
+                  .REP060 {background:#0081cb;}
+.REP060 {background:#0081cb;}
+.REP082 {background:#f44336;}
+.REP086 {background:#8bc34a;}
+.REP087 {background:#559e00;}
+.REP088 {background:#e301ff;}
+.REP089 {background:#cddc39;}
+.REP090 {background:#fb8c00;}
+.REP095 {background:#ff4081;}
+.ALLAPPS {background:#4084ff;}
+
+
+
+
+                  
+                  .right{
+                      
+                      padding-top: 3em;
+                      padding-left: 3em;
+                      padding-bottom: 2em;
+                      color:#fff;
+                  }
+   
+                  .highlevelsummary > .main-left {
+                      /*background: #00b0ff4a;*/
+                      border: solid 1px #0081cb;
+                      border-right:none;
+                      border-left:none;
+                  }  
+                  .highlevelsummary > .main-right {
+                      /*background: #0081cb4d;*/
+                      border: solid 1px #0081cb;
+                      border-right:none;
+                  }             
+                                    
+                  .jumbotron{
+                  background:#0081cb;
+                  margin-bottom:0 !important;
+                  color:#fff;
+                  padding:4em;
+                  height:300px;                 
+                  }
+
+                  .main-left {
+                    background: #4084ff;
+                }
+
+                  img#splash {
+                      position: absolute;
+                      top: 0;
+                      right: 0;
+                  }
+
+                  .response > .payload {
+                      margin-left: 4em;
+                  }
+                  
+                  .icon{
+                  padding-right:30px;
+                  color:#00b0ff;
+                  }
+                  .icon-white{
+                  padding-right:5px;
+                  color:#fff;
+                  }
+
+                  .icon-3x {
+                     font-size:3em;
+                  }
+                  
+                  ul.highlight {
+                       padding-left: 0 !important;
+                       list-style: none;
+                  }
+
+                  .highlight > li {
+                      text-align: justify;
+                      margin-top: 1em;
+                      margin-right: 1em;
+                  }
+                  
+                  .responseIDs h2 {
+                     margin-bottom: 2em;
+                  }
+
+                  .payload {
+                      margin-top: 1em;
+                  }
+
+                  p.micon {  margin-left: 4em;}
+
+                  .wrapper {
+                     display: flex;
+                     margin-left: 2em;
+                     margin-bottom: 1em;  
+                  }    
+
+                  .response_left {
+                    /*border-right: 1px solid #ccc;*/
+                    /*width: 100px;
+                    flex: 0.1;*/
+                  }
+                  
+                  .response_right {
+                    margin-left:2em;
+                  }   
+
+                  .example-hdg { font-style: italic; font-family: serif;}
+
+                  p.example {
+                      margin-left: 10em;
+                      font-style: italic;
+                      font-family: serif;
+                  }  
+
+                  .example_span {
+                     background:yellow;
+                  }  
+
+
+                  table.ranking {
+                     border-collapse:collapse;
+                     border:solid 1px #ccc;   
+                     margin:auto;
+                  }
+                  .ranking td {border:solid 1px #ccc; padding:0.5em;  }
+                  .ranking th { background: #00b0ff; color:#fff;text-align:center;}    
+                  .rank {
+                      background: #ff4081;
+                      text-align: center;
+                      color: #fff;
+                  } 
+
+
+
+
+
+
+
+
+
+
+
+       
